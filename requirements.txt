@@ -1,5 +1,1 @@
 pandas
-os
-zipfile
-shutil
-zipfile

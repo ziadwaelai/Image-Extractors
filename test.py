@@ -95,4 +95,7 @@ def main():
             st.download_button("Download Images as Zip", f, file_name="images.zip")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        st.error(f"An error occurred: {e}")
